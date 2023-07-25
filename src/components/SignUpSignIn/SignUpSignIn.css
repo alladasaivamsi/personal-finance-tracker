@@ -1,0 +1,134 @@
+.signInForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 120px 0px 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 50%;
+  box-shadow: blue;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  padding: 0rem 2rem;
+}
+
+label {
+  display: flex;
+  justify-content: start;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.name,
+.email,
+.password,
+.confirmPassword {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signUpWIthEmailBtn {
+  cursor: pointer;
+  color: blue;
+  border: 2px solid blue;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.signUpWIthEmailBtn:hover {
+  color: white;
+  background-color: blue;
+}
+
+.logInWIthEmailBtn {
+  cursor: pointer;
+  color: blue;
+  border: 2px solid blue;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.logInWIthEmailBtn:hover {
+  color: white;
+  background-color: blue;
+}
+
+.signUpWIthGoogleBtn {
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: blue;
+  border-radius: 1rem;
+  border: none;
+}
+
+.signUpWIthGoogleBtn:hover {
+  color: blue;
+  background-color: #fff;
+  border: 2px solid blue;
+}
+
+.logInWIthGoogleBtn {
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background-color: blue;
+  border-radius: 1rem;
+  border: none;
+}
+
+.logInWIthGoogleBtn:hover {
+  color: blue;
+  background-color: #fff;
+  border: 2px solid blue;
+}
+
+h2,
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.linkToLogIn {
+  color: blue;
+  cursor: pointer;
+}
+
+.linkToSignIn {
+  color: blue;
+  cursor: pointer;
+}

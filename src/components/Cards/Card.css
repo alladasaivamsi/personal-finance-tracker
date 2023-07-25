@@ -1,0 +1,88 @@
+.dashboard {
+  margin-top: 6rem;
+}
+
+.my-card {
+  box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
+  min-width: 350px;
+  padding: 0.2rem !important;
+  font-family: sans-serif !important;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  flex: 1;
+}
+
+.ant-card-head-title {
+  margin: 0rem !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.my-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  width: 90%;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.resetBalanceBtn {
+  width: 100%;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: blue;
+  border-radius: 1rem;
+  border: none;
+}
+
+.resetBalanceBtn:hover {
+  color: blue;
+  background-color: #fff;
+  border: 2px solid blue;
+}
+
+.incomeBtn {
+  width: 100%;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: blue;
+  border-radius: 1rem;
+  border: none;
+}
+
+.incomeBtn:hover {
+  color: blue;
+  background-color: #fff;
+  border: 2px solid blue;
+}
+
+.expenseBtn {
+  width: 100%;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: blue;
+  border-radius: 1rem;
+  border: none;
+}
+
+.expenseBtn:hover {
+  color: blue;
+  background-color: #fff;
+  border: 2px solid blue;
+}
+
+.my-card p {
+  margin: 0;
+  font-size: 1.2rem;
+}

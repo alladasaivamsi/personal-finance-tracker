@@ -1,0 +1,19 @@
+/* @import "~antd/dist/antd.css"; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.custom-input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-input:focus {
+  outline: none;
+  opacity: 1;
+  transition: all 0.3s;
+}
