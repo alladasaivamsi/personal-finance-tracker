@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "@firebase/auth";
 import Header from "../components/Header/Header";
 import Cards from "../components/Cards/Card";
 import AddExpense from "../components/Modals/AddExpense";

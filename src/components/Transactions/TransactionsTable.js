@@ -74,7 +74,6 @@ function TransactionsTable({
     const searchMatch = search
       ? transaction.name.toLowerCase().includes(search.toLowerCase())
       : true;
-    // const tagMatch = selectedTag ? transaction.tag === selectedTag : true;
     const typeMatch = typeFilter ? transaction.type === typeFilter : true;
 
     return searchMatch && typeMatch;
