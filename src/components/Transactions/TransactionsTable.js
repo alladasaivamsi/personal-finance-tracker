@@ -139,7 +139,6 @@ function TransactionsTable({
             alignItems: "center",
             width: "100%",
             marginBottom: "1rem",
-            flexWrap: "wrap",
             gap: "10%",
           }}
         >
