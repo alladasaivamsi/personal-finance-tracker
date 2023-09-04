@@ -150,6 +150,7 @@ function TransactionsTable({
             justifyContent: "space-between",
             alignItems: "center",
             flexWrap: "wrap",
+          gap:"10%",
           }}>
           <Radio.Group
             className="input-radio"
