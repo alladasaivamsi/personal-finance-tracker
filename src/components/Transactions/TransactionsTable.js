@@ -145,7 +145,12 @@ function TransactionsTable({
         >
           <h2>My Transactions</h2>
 
-          <div>
+          <div  style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}>
           <Radio.Group
             className="input-radio"
             onChange={(e) => setSortKey(e.target.value)}
