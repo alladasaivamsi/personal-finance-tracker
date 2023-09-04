@@ -132,8 +132,10 @@ function TransactionsTable({
         </Select>
       </div>
       <div className="my-table">
-        <div
-          style={{
+        <div>
+          <h2>My Transactions</h2>
+
+          <div style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -141,16 +143,6 @@ function TransactionsTable({
             marginBottom: "1rem",
             flexWrap: "wrap",
             gap: "10%",
-          }}
-        >
-          <h2>My Transactions</h2>
-
-          <div  style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            
-          gap:"10%",
           }}>
           <Radio.Group
             className="input-radio"
