@@ -145,6 +145,7 @@ function TransactionsTable({
         >
           <h2>My Transactions</h2>
 
+          <div>
           <Radio.Group
             className="input-radio"
             onChange={(e) => setSortKey(e.target.value)}
@@ -177,6 +178,7 @@ function TransactionsTable({
               required
               style={{ display: "none" }}
             />
+          </div>
           </div>
         </div>
 
